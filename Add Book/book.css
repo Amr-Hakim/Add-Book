@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  margin: 30px 25%;
+  width: 1000px;
+}
+
+
+form{
+padding: 20px 0 20px 0;
+width: 90%;
+}
+label{
+  display: block;
+}
+
+div{
+  margin: 20px 0;
+}
+
+input{
+  margin-top: 15px;
+  width: 90%;
+  padding: 8px;
+}
+input:hover{
+  border-color: lightblue;
+  background: rgb(130, 191, 241);
+  color: blue;
+
+}
+
+.submit-btn{
+  width: 150px;
+}
+
+
+th{
+  padding: 10px 75px 10px 75px;
+  border-bottom: 2px solid lightgray;
+
+}
+
+
+.success, .error{
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+  width: 81%;
+}
+
+.success{
+  background: green;
+}
+.error{
+  background: red;
+}
+.remove{
+  text-decoration: none;
+  color: red;
+}
+td{
+  padding: 10px 0px 10px 75px;
+
+}
